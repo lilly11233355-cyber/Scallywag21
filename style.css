@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    text-align: center;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 30px 20px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.about, .collection, .contact {
+    padding: 40px 20px;
+}
+
+.collection .items {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.collection .item {
+    background: white;
+    padding: 20px;
+    width: 140px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background: #111;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
